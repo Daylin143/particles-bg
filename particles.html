@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Particles Background</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: #0d0d0d;
+    }
+    #particles-js {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+</head>
+<body>
+  <div id="particles-js"></div>
+
+  <script>
+    particlesJS("particles-js", {
+      particles: {
+        number: { value: 80 },
+        size: { value: 3 },
+        move: { speed: 2 },
+        line_linked: { enable: true }
+      }
+    });
+  </script>
+</body>
+</html>
